@@ -13,7 +13,7 @@ Outside of work, I draw [sketches and doodles](https://arnavjot.github.io/portfo
   *Java · Android · Media3 · Spring Boot · PostgreSQL · Redis · ffmpeg · k6*
 - [**url-shortener**](https://github.com/arnavjot/url-shortener): a full-stack URL shortener with rate limiting and click analytics. Redirects are served from a Redis cache, and every click is counted exactly once, even when a worker crashes. It handles 500 requests a second with zero failures, and keeps working when Redis, Postgres or a worker goes down.
   *FastAPI · PostgreSQL · Redis · React · Prometheus · Grafana · k6*
-- [**DocRetrieve**](https://github.com/arnavjot/document-retrieval-system): ask questions about your PDFs and get answers that cite the file and page. It removes personal data before anything reaches the model, blocks prompt-injection attempts, and measures its own retrieval quality.
+- [**DocRetrieve**](https://github.com/arnavjot/DocRetrieve): ask questions about your PDFs and get answers that cite the file and page. It removes personal data before anything reaches the model, blocks prompt-injection attempts, and measures its own retrieval quality.
   *FastAPI · LangChain · ChromaDB · Gemini · React*
 - [**LeetLog**](https://github.com/arnavjot/leetlog): a Chrome extension that lets you write notes on any LeetCode problem and commit them straight to your own GitHub repo.
 
